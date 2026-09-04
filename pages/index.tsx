@@ -20,9 +20,9 @@ export default function HomePage({ documents, tree }: { documents: DocumentMeta[
               <p className="eyebrow">Girl and Love</p>
               <h1>GAL</h1>
               <p className="home-page__lead">
-                写给女孩与爱，也写给那些没有被说完的心事。
+                此博客纯属像我这样的性压抑的产物。
               </p>
-              <p className="home-page__note">一个持续更新的私人博客。</p>
+              <p className="home-page__note">当成臆想症就好。</p>
               <Link className="home-page__link" href="#latest">
                 读最新文章 <span aria-hidden="true">↘</span>
               </Link>

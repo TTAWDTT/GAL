@@ -12,7 +12,7 @@
   --accent-hover: #e09aa5;
   --sans: "Times New Roman", var(--font-lxgw-wenkai, "LXGW WenKai Local"), "Noto Serif SC", "Songti SC", serif;
   --serif: "Times New Roman", var(--font-lxgw-wenkai, "LXGW WenKai Local"), "Noto Serif SC", "Songti SC", serif;
-  --mono: ui-monospace, SFMono-Regular, Consolas, monospace;
+  --mono: "Times New Roman", var(--font-lxgw-wenkai, "LXGW WenKai Local"), "Noto Serif SC", "Songti SC", serif;
 }
 
 * { box-sizing: border-box; }
