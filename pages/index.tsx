@@ -22,9 +22,7 @@ export default function HomePage({ documents, tree }: { documents: DocumentMeta[
               <p className="home-page__lead">
                 此博客纯属像我这样的性压抑的产物。
               </p>
-              <p className="home-page__note">
-                当成臆想症就好。<br />但是你的鼠标移过来我就有色彩了哦！
-              </p>
+              <p className="home-page__note">当成臆想症就好。</p>
               <Link className="home-page__link" href="#latest">
                 读最新文章 <span aria-hidden="true">↘</span>
               </Link>
@@ -39,7 +37,10 @@ export default function HomePage({ documents, tree }: { documents: DocumentMeta[
                 unoptimized
                 width={520}
               />
-              <span className="home-page__portrait-caption">感觉有点阴所以放个遗照</span>
+              <span className="home-page__portrait-caption">
+                感觉有点阴所以放个遗照<br />
+                但是你的鼠标移过来我就有色彩了哦！
+              </span>
             </div>
           </div>
 
