@@ -1,0 +1,27 @@
+{
+  "name": "gal",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack --hostname 127.0.0.1 --port 3001",
+    "build": "next build",
+    "start": "next start --hostname 127.0.0.1 --port 3001",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "katex": "^0.16.21",
+    "next": "16.2.6",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "@types/katex": "^0.16.8",
+    "@types/node": "20.9.0",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "eslint": "9.25.1",
+    "eslint-config-next": "16.2.6",
+    "prettier": "3.5.3",
+    "typescript": "5.6.3"
+  }
+}
