@@ -6,6 +6,7 @@ function FileItem({ file, activeSlug }: { file: FileNode; activeSlug: string }) 
   return (
     <li>
       <Link
+        aria-current={file.slug === activeSlug ? "page" : undefined}
         className={file.slug === activeSlug ? "tree-link tree-link--active" : "tree-link"}
         href={`/doc/${file.slug}`}
       >

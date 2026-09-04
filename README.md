@@ -1,6 +1,6 @@
 # GAL
 
-GAL（Girl and Love）是一个以 Markdown 为内容源的个人博客。它保留了 CNOP 的文章目录、Markdown 渲染、KaTeX 和静态导出能力，但页面改成更安静、偏忧郁的深夜编辑部氛围。
+GAL（Girl and Love）是一个以 Markdown 为内容源的个人博客，提供文章目录、Markdown 渲染、KaTeX 和静态导出能力，页面采用安静、偏忧郁的深夜编辑部氛围。
 
 ## 本地开发
 
