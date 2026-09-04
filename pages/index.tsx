@@ -37,7 +37,7 @@ export default function HomePage({ documents, tree }: { documents: DocumentMeta[
                 unoptimized
                 width={520}
               />
-              <span className="home-page__portrait-caption">girl / love / memory</span>
+              <span className="home-page__portrait-caption">感觉有点阴所以放个遗照</span>
             </div>
           </div>
 
